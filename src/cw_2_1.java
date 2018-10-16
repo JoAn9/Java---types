@@ -62,16 +62,16 @@ public class cw_2_1 {
 
         int z = 2 * 5 + 3 * 4 - 8;
         System.out.println(z);
+        int result48 = 2 * ((5 + 3) * 4 - 8);
+        System.out.println(result48);
 
+// Zad. VI
 
+        System.out.println("'z' nalezy do przedzialu [0, infinity]: " + (z >= 0));
+        System.out.println("'z' nalezy do przedzialu [-infinity, 1]: " + (z <= 1));
+        System.out.println("'z' nalezy do przedzialu [0, 1]: " + (z >= 0 && z <= 1));
+
+// Zad. VII
 
     }
 }
-
-
-/*
-Zadeklaruj zmienne wszystkich typów prostych, a następnie nadaj im kolejno naj-
-mniejszą i największą możliwą wartość. Wykorzystaj literały logiczne lub w systemie
-dziesiętnym, a tam gdzie to możliwe również w szesnastkowym, ósemkowym i binar-
-nym.
- */
