@@ -73,5 +73,25 @@ public class cw_2_1 {
 
 // Zad. VII
 
+        /*
+        Dane są następujące zbiory:
+        • A = (−15, −10] ∪ (−5, 0) ∪ (5, 10)
+        • B = (−∞, −13] ∪ (−8, −3]
+        • C = [−4, ∞)
+        Napisz program weryfikujący, czy zmienna int wrt należy do części wspólnej tych
+        zbiorów.
+         */
+
+        int wtr = -3;
+        boolean result = false;
+        if (
+            ((wtr > -15 && wtr <= -10) || (wtr > -5 && wtr < 0) || (wtr > 5 && wtr < 10)) &&
+            ((wtr <= -13) || (wtr > -8 && wtr <= -3)) &&
+            (wtr >= -4)
+        ) {
+            result = true;
+        }
+        System.out.println("'wtr' należy do cześci wspónej zbiorów: " + result);
+
     }
 }
