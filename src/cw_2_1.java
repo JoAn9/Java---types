@@ -82,16 +82,38 @@ public class cw_2_1 {
         zbiorów.
          */
 
-        int wtr = -3;
+        int wrt = -3;
         boolean result = false;
         if (
-            ((wtr > -15 && wtr <= -10) || (wtr > -5 && wtr < 0) || (wtr > 5 && wtr < 10)) &&
-            ((wtr <= -13) || (wtr > -8 && wtr <= -3)) &&
-            (wtr >= -4)
+            ((wrt > -15 && wrt <= -10) || (wrt > -5 && wrt < 0) || (wrt > 5 && wrt < 10)) &&
+            ((wrt <= -13) || (wrt > -8 && wrt <= -3)) &&
+            (wrt >= -4)
         ) {
             result = true;
         }
-        System.out.println("'wtr' należy do cześci wspónej zbiorów: " + result);
+        System.out.println("'wrt' należy do cześci wspónej zbiorów: " + result);
+
+// Zad. VIII
+        /*
+        • A = (−15, −10)
+        • B = (−∞, −13)
+        Napisz program sprawdzający czy zmienna int wrt należy tylko do jednego z tych
+        zbiorów.
+         */
+        int wrt2 = -14;
+        boolean result2 = false;
+
+        if ((wrt2 > -15 && wrt2 < -10) && (wrt2 >= -13)) {
+            result2 = true;
+            System.out.println("'wrt2' = " + wrt2 + " należy tylko do zbioru A: " + result2);
+        }
+        else if (!(wrt2 > -15 && wrt2 < -10) && (wrt2 < -13)) {
+            result2 = true;
+            System.out.println("'wrt2' = " + wrt2 + " należy tylko do zbioru B: " + result2);
+        }
+        else
+            System.out.println("'wrt2' = " + wrt2 +" należy tylko do jednego zbioru: " + result2);
 
     }
+
 }
