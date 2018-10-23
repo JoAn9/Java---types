@@ -51,16 +51,17 @@ public class TAK_Ex_1 {
 
     public static void main( String[] args ) {
 
-        double a = 1;
-        double b = 2000;
-        double result = a/b;
+        double quot = count(1, 2000, 5);
 
-        System.out.println(result);
+        System.out.println(quot);
+
 
     }
 
-//    public double result () {
-//        System.out.println("haha");
-//    }
+    static double count(double a, double b, int c) {
+        double result = a/b;
+//        System.out.println(result);
+        return result;
+    }
 
 }
