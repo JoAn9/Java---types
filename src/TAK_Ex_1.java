@@ -49,19 +49,80 @@ Warto przypomnieć sobie dzielenie pisemne. Jeśli wynik byłby wypisywany na bi
 
 public class TAK_Ex_1 {
 
+    public static char[] illegalChars = {'0', '.'};
+
     public static void main( String[] args ) {
-
-        double quot = count(1, 2000, 5);
-
-        System.out.println(quot);
-
-
+//        System.out.println(quot);
+//        System.out.println(quotStr);
+        getIndex(2);
     }
 
-    static double count(double a, double b, int c) {
+    static double count(double a, double b) {
         double result = a/b;
-//        System.out.println(result);
         return result;
     }
 
+    public static String changeOnString(double r) {
+        return String.valueOf(r);
+    }
+
+    static String getIndex(int c) {
+        double quot = count(1, 2000);
+        String quotStr = changeOnString(quot);
+        System.out.println(quotStr);
+
+        for(int i = 1; i<quotStr.length(); i++) {
+            System.out.println(quotStr.valueOf(i));
+
+        }
+
+        return quotStr;
+
+
+    }
+
+
 }
+
+
+//    public static void main(String[] args) {
+//
+//        double a = 1;
+//        double b = 2000;
+//        System.out.println(a/b);
+//        System.out.println(getIndex(a,b,323213));
+//    }
+//
+//    public static char getIndex(double a, double b, int c) {
+//        String numberString = getQuotientInStringForm(a, b);
+//        if (c > numberString.length()) {
+//            return '0';
+//        }
+//
+//        int count = 0;
+//
+//        for (int i = 0; i < numberString.length(); i++) {
+//            if (numberString.charAt(i) == 'E') {
+//                return '0';
+//            }
+//            boolean illegalCharPresent = false;
+//            for (char ch : illegalChars) {
+//                if (numberString.charAt(i) == ch) {
+//                    illegalCharPresent = true;
+//                    break;
+//                }
+//            }
+//            if (!illegalCharPresent) {
+//                count++;
+//            }
+//            if (count == c) {
+//                return numberString.charAt(i);
+//            }
+//        }
+//        return '0';
+//    }
+//
+//
+//    public static String getQuotientInStringForm(double a, double b) {
+//        return String.valueOf(a / b);
+//    }
