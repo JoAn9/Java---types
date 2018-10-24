@@ -84,7 +84,7 @@ public
             int b = 1500;
             for(int i = a; i <= b; i++) {
                 if(i%3 == 0 && i%2 == 0) {
-                   // System.out.println(i);
+                    System.out.println(i);
                 }
             }
 
