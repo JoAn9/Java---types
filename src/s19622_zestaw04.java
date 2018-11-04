@@ -6,7 +6,7 @@ public
     public static int [] b = new int[10];
 
     public static void main( String[] args ) {
-        cw_04();
+        cw_07();
     }
 
     static public void cw_01() {
@@ -55,5 +55,25 @@ public
             }
         }
 
+    }
+
+    static public void cw_05() {
+        int tab[];
+        // System.out.println(tab);
+        // Error:(62, 28) java: variable tab might not have been initialized
+    }
+
+    static public void cw_06() {
+        int tab[] = {789, 678, 567};
+
+        for(int i = 0; i < tab.length; i++)
+            for (int j = i; j < tab.length; j++)
+                System.out.println(tab[i] - tab[j]);
+
+    }
+
+    static public void cw_07() {
+        String[] slowa = {"Ala", "kota", "ma","ma","a","kot", "Ale"};
+        System.out.println(slowa[0] + " " + slowa[2] + " " + slowa[1] + " " + slowa[4] + " " + slowa[5] + " " + slowa[3] + " " + slowa[6]);
     }
 }
