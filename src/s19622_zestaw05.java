@@ -4,7 +4,7 @@ public
     class s19622_zestaw05 {
 
     public static void main( String[] args ) {
-        cw_01();
+        cw_02();
     }
     /*
     Dana jest jednowymiarowa tablica zmiennych typu char wypełniona
@@ -35,6 +35,31 @@ public
         for (int i = 0; i < arrayMirror.length; i++) {
             arrayMirror[i] = array[array.length - 1 - i];
             System.out.print(arrayMirror[i] + ", ");
+        }
+    }
+
+    /*
+    Dana jest tablica char[] tab = {’a’, ’b’, ’c’, ’e’, ’f’};
+    Napisz program wyświetlający wszystkie elementy tej tablicy
+    wraz z ich lewym i prawym sąsiadem, przyjmując że wychodząc
+    poza tablicę (z dowolnej strony) sąsiadującymi elementami
+    są wartości z początku lub końca tablicy.
+     */
+
+    static public void cw_02() {
+        char[] tab = {'a', 'b', 'c', 'e', 'f'};
+        String toDisplay;
+        int length = tab.length;
+        for (int i = 0; i < tab.length; i++) {
+            if (i == 0) {
+                toDisplay = "Wartość: " + tab[i] + " ma sąsiada z lewej: " + tab[length-1] + " oraz sąsiada z prawej: " + tab[i+1];
+            } else if (i == length-1) {
+                toDisplay = "Wartość: " + tab[i] + " ma sąsiada z lewej: " + tab[i-1] + " oraz sąsiada z prawej: " + tab[0];
+            } else {
+                toDisplay = "Wartość: " + tab[i] + " ma sąsiada z lewej: " + tab[i-1] + " oraz sąsiada z prawej: " + tab[i+1];
+            }
+
+            System.out.println(toDisplay);
         }
     }
 }
