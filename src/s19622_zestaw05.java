@@ -5,7 +5,7 @@ public
     class s19622_zestaw05 {
 
     public static void main(String[] args) {
-        cw_03();
+        cw_04();
     }
     /*
     Dana jest jednowymiarowa tablica zmiennych typu char wypełniona
@@ -109,8 +109,56 @@ public
         System.out.println(Arrays.toString(newArr));
     }
 
+    /*
+    Utwórz i wypełnij losowymi wartościami dwie tablice o takim samym
+    rozmiarze i typach odpowiednio int i double. Przyjmij że elementy
+    na tym samym indeksie (w obu tablicach) są nierozerwalnie z sobą
+    połączone, co oznacza że wykonywanie dowolnej operacji na elemencie
+    pod indeksem X w jednej tablicy będzie wymagało takiej samej operacji
+    w drugiej tablicy. Posortuj te dane rosnąco, przyjmując jako
+    kryterium sumę wartości na tym samym indeksie w obu tablicach.
+     */
 
     static public void cw_04() {
+
+        int[] array1 = new int[5];
+        for (int i = 0; i < array1.length; i++) {
+            array1[i] = (int)(Math.random()*20);
+        }
+        System.out.println(Arrays.toString(array1));
+
+        double[] array2 = new double[5];
+        for (int i = 0; i < array2.length; i++) {
+            array2[i] = Math.random()*20;
+        }
+        System.out.println(Arrays.toString(array2));
+
+        for (int j=0; j<array1.length; j++) {
+            int minIndex = j;
+            double minSum = array1[j] + array2[j];
+
+            for(int i=j+1; i<array1.length; i++) {
+                if (minSum > array1[i] + array2[i]) {
+                    minIndex = i;
+                    minSum = array1[i] + array2[i];
+                }
+            }
+
+            int tempValue1 = array1[j];
+            double tempValue2 = array2[j];
+
+            array1[j] = array1[minIndex];
+            array1[minIndex] = tempValue1;
+
+            array2[j] = array2[minIndex];
+            array2[minIndex] = tempValue2;
+
+        }
+
+        System.out.println(Arrays.toString(array1));
+        System.out.println(Arrays.toString(array2));
+
+
 
     }
 
