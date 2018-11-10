@@ -5,7 +5,7 @@ public
     class s19622_zestaw05 {
 
     public static void main(String[] args) {
-        cw_04();
+        cw_03();
     }
     /*
     Dana jest jednowymiarowa tablica zmiennych typu char wypełniona
@@ -107,6 +107,11 @@ public
             newArr[a.length + i] = b[i];
         }
         System.out.println(Arrays.toString(newArr));
+    }
+
+
+    static public void cw_04() {
+
     }
 
 }
