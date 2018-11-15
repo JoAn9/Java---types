@@ -157,9 +157,6 @@ public
 
         System.out.println(Arrays.toString(array1));
         System.out.println(Arrays.toString(array2));
-
-
-
     }
 
 }
