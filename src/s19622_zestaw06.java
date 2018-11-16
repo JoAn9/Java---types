@@ -5,7 +5,7 @@ public
     class s19622_zestaw06 {
 
     public static void main(String[] args) {
-        cw_01();
+        cw_02();
     }
 
     /*
@@ -39,6 +39,43 @@ public
             }
             rezultat[i][0] = sum;
             System.out.println("rezultat " + i + ": " + rezultat[i][0]);
+        }
+    }
+
+    /*
+    Utwórz dwuwymiarową tablicę zmiennych typu int o rozmiarach 10 na 10
+    i wypełnij ją losowymi liczbami. Następnie znajdź taki element tej
+    tablicy, którego suma elementów sąsiadujących jest największa.
+     */
+
+    static public void cw_02() {
+
+        int[][] array = new int[10][10];
+        int sum = 0;
+
+        for(int i=0; i<array.length; i++) {
+            for(int j=0; j<array.length; j++) {
+                array[i][j] = (int)(Math.random()*10);
+            }
+        }
+
+        for(int i=0; i<array.length; i++) {
+            System.out.print("Array " + i + ": ");
+            for(int j=0; j<array.length; j++) {
+                System.out.print(array[i][j] + ", ");
+            }
+            System.out.println();
+        }
+
+        for(int i=0; i<array.length; i++) {
+            for(int j=0; j<array.length; j++) {
+                sum =
+                    j == 0 ? 0 : array[i][j-1] +
+                    j == array.length-1 ? 0 : array[i][j+1];
+                System.out.print(sum + ", ");
+            }
+            System.out.println();
+
         }
     }
 }
