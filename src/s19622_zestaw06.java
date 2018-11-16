@@ -69,9 +69,8 @@ public
 
         for(int i=0; i<array.length; i++) {
             for(int j=0; j<array.length; j++) {
-                sum =
-                    j == 0 ? 0 : array[i][j-1] +
-                    j == array.length-1 ? 0 : array[i][j+1];
+                sum = array[i][j == 0 ? 0 : j-1] + array[i][j == array.length - 1 ? 0 : j+1];
+
                 System.out.print(sum + ", ");
             }
             System.out.println();
