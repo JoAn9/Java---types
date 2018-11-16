@@ -51,7 +51,6 @@ public
     static public void cw_02() {
 
         int[][] array = new int[10][10];
-        int sum = 0;
 
         for(int i=0; i<array.length; i++) {
             for(int j=0; j<array.length; j++) {
@@ -67,14 +66,34 @@ public
             System.out.println();
         }
 
-        for(int i=0; i<array.length; i++) {
-            for(int j=0; j<array.length; j++) {
-                sum = array[i][j == 0 ? 0 : j-1] + array[i][j == array.length - 1 ? 0 : j+1];
+        int sum;
+        int bigSum = 0;
+        int myIndexI = 0;
+        int myIndexJ = 0;
 
+        for(int i=0; i<array.length; i++) {
+            System.out.print("suma wynosi: ");
+            for(int j=0; j<array.length; j++) {
+                if (j == 0) {
+                    sum = array[i][j+1];
+                }
+                else if (j == array.length - 1) {
+                    sum = array[i][j-1];
+                }
+                else {
+                    sum = array[i][j-1] + array[i][j+1];
+                }
                 System.out.print(sum + ", ");
+                if (sum > bigSum) {
+                    bigSum = sum;
+                    myIndexI = i;
+                    myIndexJ = j;
+                }
             }
             System.out.println();
-
+            System.out.println("myIndex: " + myIndexI + ", " + myIndexJ);
         }
+
+        System.out.println("The biggest sum is in element with index: " + myIndexI + ", " + myIndexJ);
     }
 }
