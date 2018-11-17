@@ -5,7 +5,7 @@ public
     class s19622_zestaw06 {
 
     public static void main(String[] args) {
-        cw_02();
+        cw_03();
     }
 
     /*
@@ -96,4 +96,35 @@ public
 
         System.out.println("The biggest sum is in element with index: " + myIndexI + ", " + myIndexJ);
     }
+
+    /*
+    Utwórz dwuwymiarową tablicę kwadratową o pseudolosowej liczbie
+    elementów typu char i wypełnij ją wartościami ’a’ i ’l’
+    w dowolny sposób. Następnie wypisz na ekran wszystkie słowa “ala”
+    jakie znajdą się w tej tablicy.
+     */
+    static public void cw_03() {
+        String alString = "al";
+        char[][] array = new char[(int)(Math.random()*10)][(int)(Math.random()*20)];
+
+//        System.out.print(array[1].length);
+
+        for (int i=0; i<array.length; i++) {
+            System.out.print("Array " + i + ": ");
+            for (int k=0; k<array[i].length; k++) {
+                array[i][k] = alString.charAt((int)(Math.random()*2));
+                System.out.print(array[i][k] + ", ");
+            }
+            System.out.println();
+        }
+
+        for (int i=0; i<array.length; i++) {
+            for (int k=0; k<array[i].length-2; k++) {
+                if (array[i][k] == 'a' && array[i][k+1] == 'l' && array[i][k+2] == 'a') {
+                    System.out.println("ala w tablicy o indeksie " + i + " " + k + ": " + array[i][k] + array[i][k+1] + array[i][k+2]);
+                }
+            }
+        }
+    }
+
 }
