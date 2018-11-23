@@ -2,7 +2,7 @@
 public class s19622_zestaw07 {
 
     public static void main(String[] args) {
-        cw_01();
+        cw_02();
     }
 
     /*
@@ -34,17 +34,21 @@ Jaki jest powód uzyskanego rezultatu?
     znaki składające się na ciąg dostarczony jako argument.
      */
 
-    static void countSigns(char[] arr) {
-        for(char i = 'a'; i<='z'; i++) {
-
-
+    static int countSigns(char letter, char[] arr) {
+        int counter = 0;
+        for(int i=0; i<arr.length; i++) {
+            if (arr[i] == letter) {
+                counter++;
+            }
         }
+        return counter;
     }
 
     static void cw_02() {
         char[] array = {'a', 'l', 'a', 'm', 'a', 'k', 'o', 't', 'a'};
-
-
+        for (int i=0; i<array.length; i++) {
+            System.out.println(array[i] + " wystepuje " + countSigns(array[i], array));
+        }
     }
 
 
