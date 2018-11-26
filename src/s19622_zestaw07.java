@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class s19622_zestaw07 {
 
     public static void main(String[] args) {
-        cw_03();
+        cw_04();
     }
 
     /*
@@ -112,12 +112,20 @@ Uwaga - elementy które nie maja pary, powinny zostać pominięte
     czy dostarczone w tablicy zmiennych typu char słowo jest palindromem.
      */
 
-//    static boolean test(char[] array) {
-//
-//    }
-//
-//    static void cw_04() {
-//        char []myArray = {'a', 'l', 'a'};
-//        System.out.println(test(myArray));
-//    }
+    static boolean testPalindrom(char[] array, int firstChar, int lastChar) {
+        if (firstChar == lastChar || lastChar-firstChar == 1) {
+            return true;
+        }
+        if (array[firstChar] == array[lastChar] && firstChar < lastChar) {
+            firstChar++;
+            lastChar--;
+            return testPalindrom(array, firstChar, lastChar);
+        }
+        return false;
+    }
+
+    static void cw_04() {
+        char []myArray = {'a', 'l', 'b', 's', 'b', 'l', 'a', 'k'};
+        System.out.println(testPalindrom(myArray, 0, myArray.length-1));
+    }
 }
