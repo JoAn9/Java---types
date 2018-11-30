@@ -4,7 +4,7 @@
         Działanie obu składowych klasy przedstaw w programie.
 */
 
-    public class Person4 {
+    class Person4 {
         String name;
         String surname;
         int year;
@@ -22,15 +22,14 @@
                 " Year: " + year
             );
         }
+    }
+
+    public class s19622_zestaw8_4 {
 
         public static  void main(String[] args) {
 
             Person4 myPerson = new Person4("Michael", "Jackson", 1950);
             myPerson.show();
-
         }
-
-
-
-        }
+    }
 

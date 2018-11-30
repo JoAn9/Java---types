@@ -22,8 +22,12 @@ class MethodCurrier {
     void setValue(float y) {
         System.out.println(y + ": float");
     }
+}
+
+public class s19622_zestaw08_1 {
 
     public static  void main(String[] args) {
+
         MethodCurrier something = new MethodCurrier();
         float myFloat = 2.58f;
         something.setValue(myFloat);
@@ -31,11 +35,5 @@ class MethodCurrier {
         byte myByte = 2;
         something.setValue(myByte);
         something.setValue('a');
-
-
-
-
-
     }
-
 }
