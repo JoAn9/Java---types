@@ -9,23 +9,16 @@ Wykorzystaj możliwość dostępu do publicznych pól tej klasy
 i przypisz im literały lub wartości opisujące tworzoną osobę.
  */
 
-    public class Person3 {
+    class Person {
         public String name;
         public String surname;
         public int year;
+    }
 
-//        public void setValue(String a, String b, int c) {
-//            name = a;
-//            surname = b;
-//            year = c;
-//        }
-//
-//        public void print() {
-//            System.out.println("Name: " + name);
-//        }
+    public class s19622_zestaw8_3 {
 
-        public static  void main(String[] args) {
-            Person3 osoba = new Person3();
+        public static void main(String[] args) {
+            Person osoba = new Person();
             osoba.name = "John";
             osoba.surname = "Smith";
             osoba.year = 1410;
@@ -34,11 +27,5 @@ i przypisz im literały lub wartości opisujące tworzoną osobę.
                     " Surname: " + osoba.surname +
                     " Year: " + osoba.year
             );
-
-//            person1.setValue("John", "Smith", 1410);
-//            person1.print();
         }
-
     }
-
-

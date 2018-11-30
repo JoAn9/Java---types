@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27586f17-6c97-40bd-9c20-2b79f206c2ce" name="Default Changelist" comment="6-3">
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/s19622_zestaw08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s19622_zestaw08_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-cw2/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-cw2/Person3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/s19622_zestaw8_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s19622_zestaw08.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,13 +73,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="12207" />
+          <entry key="java" value="12627" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12207" />
+          <entry key="JAVA" value="12627" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -98,33 +100,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/s19622_zestaw07.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="126" selection-start-line="126" selection-end-line="127" />
+            <state relative-caret-position="95">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/s19622_zestaw08.java">
+        <entry file="file://$PROJECT_DIR$/src/s19622_zestaw08_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="152">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding>
-                <element signature="e#0#603#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
                 <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Person.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/s19622_zestaw8_3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="26" selection-start-line="26" selection-end-line="27" />
+            <state relative-caret-position="177">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="e#0#397#0" expanded="true" />
               </folding>
@@ -132,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Person4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="361">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding>
                 <element signature="e#0#885#0" expanded="true" />
               </folding>
@@ -173,18 +174,20 @@
         <option value="$PROJECT_DIR$/src/s19622_zestaw05.java" />
         <option value="$PROJECT_DIR$/src/s19622_zestaw06.java" />
         <option value="$PROJECT_DIR$/src/s19622_zestaw07.java" />
-        <option value="$PROJECT_DIR$/src/s19622_zestaw08.java" />
         <option value="$PROJECT_DIR$/src/Osoba.java" />
         <option value="$PROJECT_DIR$/src/Osoba4.java" />
         <option value="$PROJECT_DIR$/src/Person.java" />
         <option value="$PROJECT_DIR$/src/Person4.java" />
+        <option value="$PROJECT_DIR$/src/s19622_zestaw08.java" />
+        <option value="$PROJECT_DIR$/src/Person3.java" />
+        <option value="$PROJECT_DIR$/src/s19622_zestaw8_3.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="972" />
+    <option name="width" value="928" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -227,7 +230,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543598513957" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543613413894" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -255,7 +258,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Person3">
+  <component name="RunManager" selected="Application.MethodCurrier">
+    <configuration name="MethodCurrier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodCurrier" />
+      <module name="java-cw2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Person" />
       <module name="java-cw2" />
@@ -277,34 +287,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="s19622_zestaw06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="s19622_zestaw06" />
-      <module name="java-cw2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="s19622_zestaw07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="s19622_zestaw07" />
+    <configuration name="s19622_zestaw8_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s19622_zestaw8_3" />
       <module name="java-cw2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.s19622_zestaw06" />
-      <item itemvalue="Application.s19622_zestaw07" />
       <item itemvalue="Application.Person" />
       <item itemvalue="Application.Person4" />
       <item itemvalue="Application.Person3" />
+      <item itemvalue="Application.MethodCurrier" />
+      <item itemvalue="Application.s19622_zestaw8_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodCurrier" />
+        <item itemvalue="Application.s19622_zestaw8_3" />
         <item itemvalue="Application.Person3" />
         <item itemvalue="Application.Person4" />
         <item itemvalue="Application.Person" />
-        <item itemvalue="Application.s19622_zestaw07" />
-        <item itemvalue="Application.s19622_zestaw06" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +333,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="972" height="1056" extended-state="4" />
+    <frame x="65" y="24" width="928" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.29049677" />
@@ -350,7 +353,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.25969827" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.1713362" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.28663793" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -444,43 +447,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/s19622_zestaw08.java">
+    <entry file="file://$PROJECT_DIR$/src/Person4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="361">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding>
-            <element signature="e#0#603#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#0#885#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/s19622_zestaw07.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="126" selection-start-line="126" selection-end-line="127" />
+        <state relative-caret-position="95">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/s19622_zestaw08_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="26" selection-start-line="26" selection-end-line="27" />
+        <state relative-caret-position="152">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
-            <element signature="e#0#397#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person4.java">
+    <entry file="file://$PROJECT_DIR$/src/s19622_zestaw8_3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="177">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
-            <element signature="e#0#885#0" expanded="true" />
+            <element signature="e#0#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
