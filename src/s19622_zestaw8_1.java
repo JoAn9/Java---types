@@ -13,18 +13,7 @@ Na jakiej podstawie podejmowana jest decyzja którą z metod należy wywołać?
      */
 
 
-class MethodCurrier {
-
-    void setValue(int x) {
-        System.out.println(x + ": int");
-    }
-
-    void setValue(float y) {
-        System.out.println(y + ": float");
-    }
-}
-
-public class s19622_zestaw08_1 {
+public class s19622_zestaw8_1 {
 
     public static  void main(String[] args) {
 
@@ -35,5 +24,14 @@ public class s19622_zestaw08_1 {
         byte myByte = 2;
         something.setValue(myByte);
         something.setValue('a');
+    }
+}
+
+class MethodCurrier {
+    void setValue(int x) {
+        System.out.println(x + ": int");
+    }
+    void setValue(float y) {
+        System.out.println(y + ": float");
     }
 }
